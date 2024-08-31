@@ -108,6 +108,7 @@ int main(int argc, char **argv) {
       interpret(code, ptr, tape);
 
       fclose(file);
+      free(code);
     }
 
   } else {
