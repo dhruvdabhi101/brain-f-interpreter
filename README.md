@@ -6,6 +6,6 @@
 - use `-h` flag for information
 
 ### TODO
-- `Imlement -v flag for verbose output`
+- `Implement -v flag for verbose output`
 - `Need to do some error handling`
 
