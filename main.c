@@ -89,7 +89,7 @@ int main(int argc, char **argv) {
       printf("  -t: Run tests\n");
       printf("  -h: Display this help message\n");
       printf("  filename: The filename of the source code to interpret\n");
-      interpret(argv[1], ptr, tape);
+      return 0;
     } else {
       FILE *file = fopen(argv[1], "r");
       if (file == NULL) {
